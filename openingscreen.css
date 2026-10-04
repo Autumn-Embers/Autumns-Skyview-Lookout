@@ -1,8 +1,6 @@
 body {background-image:url('terminal.png'); background-size:cover; background-repeat:no-repeat; background-position:center top; color:#72FF13; font-family:monospace; text-align:center;}
 th, td {border:6px ridge #bf00ff; border-radius:12px; text-align:center; margin-left:auto; margin-right:auto; background-color:#232323;}
 h1 {color:#fff600; text-shadow: 3px 3px #ff63c7; font-size:400%; font-family:Courier New; text-align:center; border:dashed 5px #ff63c7; border-radius:12px; display:inline-block; padding:3px; outline-style:ridge; outline-width:5px; outline-color:#fff600; outline-offset:3px;}
-.link {background-color:#bf00ff; color:#72FF13; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block;}
-a:hover, a:active {background-color:#007FFF; cursor:cell;}
 div {text-align:center;}
 img {color:red;}
 a {color:#72FF13;}
