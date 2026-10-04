@@ -1,4 +1,4 @@
-body {background-color:#339999; background-image:url('fallingleaves.gif'); background-size:fill;}
+body {background-color:#1E1E1E; background-image:url('fallingleaves.gif'); background-size:fill;}
 .header {text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; font-size:300%; font-family:monospace;}
 .div1 {padding:4px; border:ridge 2px #888888; color:#ffffff; border-radius:15px; background-color:#1E1E1E; width:99%; height:90%; background-size:fill; font-size:125%; font-family:monospace;}
 .hr1 {color:pink; padding:4px; border:ridge 1px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
