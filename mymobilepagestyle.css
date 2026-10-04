@@ -5,8 +5,8 @@ body {background-color:#000066; background-image:url('stars.gif'); background-si
 table {margin:-8px; width:100%; align-content:center;}
 p {color:#0F52BA;}
 .div1 {margin-left:auto; margin-right:auto; margin-top:10px; padding:4px; border:ridge 2px #888888; border-radius:15px; background-color:#0099FF; width:75%; height:75%; background-image:url('fallingleaves.gif'); background-size:fill;}
-.hr1 {color:pink; padding:4px; border:ridge 1px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
-.hr2 {color:pink; padding:4px; border:ridge 1px #ffffff; margin-top:-4px; border-radius:15px; background-image:url('rainbowflip.gif');}
+.hr1 {color:pink; padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
+.hr2 {color:pink; padding:4px; border:ridge 0px #ffffff; margin-top:-4px; border-radius:15px; background-image:url('rainbowflip.gif');}
 .button {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Monospace;}
 button {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Monospace;}
 .link {background-color:#bf00ff; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block;}
