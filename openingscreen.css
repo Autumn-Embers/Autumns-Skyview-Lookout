@@ -5,9 +5,9 @@ div {text-align:center;}
 img {color:red;}
 a {color:#72FF13;}
 nav {color:#72FF13; font-family:Courier New; text-align:center; border:5px #bf00ff; border-radius:12px; border-style:ridge; display:inline-block; padding:10px;}
-.button:hover {opacity:1.0; cursor:cell;}
+.button:hover {opacity:1.0; cursor:pointer;}
 .no-bullets {list-style-type: none; margin-right:-8px; margin-left:1%; margin-top:0px; margin-bottom:0px; margin-right:1%; border:ridge 5px #00674F; border-radius:20px; padding:5px;}
-.button {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:250%; width:99%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:.2%; margin-top:.2%; font-family:Monospace;}
-button {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:175%; width:99%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:.2%; margin-top:.2%; font-family:Monospace;}
+.button {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:250%; width:99%; text-align:center; cursor:pointer; display:inline-block; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:.2%; margin-top:.2%; font-family:Monospace;}
+button {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:175%; width:99%; text-align:center; cursor:pointer; display:inline-block; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:.2%; margin-top:.2%; font-family:Monospace;}
 .hr1 {color:pink; padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
 .hr2 {color:pink; padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif');}
