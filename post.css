@@ -1,0 +1,6 @@
+.button {background-color:#000000; padding:6px 6px; color:#ffffff; text-shadow: 3px 3px #000000; opacity:0.7; font-size:250%; width:75%; margin-left:12.5%; text-align:center; display:inline-block; border:ridge 1px #000000; border-radius:20px; margin-bottom:7px; font-family:Monospace;}
+ th, td {border:6px solid grey; border-radius:12px; margin-left:auto; margin-right:auto; background-color:#111111;}
+.link1 {color:#4493F8; padding: 6px 6px; text-align: center; text-decoration: none; display: inline-block;}
+.link1:hover {background-color:#007FFF;}
+.button:hover {opacity:1.0;}
+body {background-color:#1E1E1E; font-family:Times;}
