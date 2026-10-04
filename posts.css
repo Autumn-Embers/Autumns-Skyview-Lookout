@@ -8,7 +8,7 @@ a {color:#72FF13;}
 nav {color:#72FF13; font-family:Courier New; text-align:center; border:5px #bf00ff; border-radius:12px; border-style:ridge; display:inline-block; padding:10px;}
 .button:hover {opacity:1.0; cursor:pointer;}
 .no-bullets {list-style-type: none; margin-left:1%; margin-top:0px; margin-bottom:0px; margin-right:1%; border:ridge 5px #888888; border-radius:20px; padding:5px;  font-family:Courier New; text-align:center; color:#ffffff; text-shadow: 3px 3px #000000; font-size:200%;}
-.button {background-color:#000000; padding:6px 6px; color:#ffffff; cursor:pointer; text-shadow: 3px 3px #575757; opacity:0.7; font-size:250%; width:99%; text-align:center; display:inline-block; border:ridge 1px #000000; border-radius:20px; margin-bottom:7px; font-family:Monospace;}
-button {background-color:#000000; padding:6px 6px; color:#ffffff; cursor:pointer; text-shadow: 3px 3px #575757; opacity:0.7; font-size:175%; width:99%; text-align:center; display:inline-block; border:ridge 1px #000000; border-radius:20px; margin-bottom:7px; font-family:Monospace;}
+.button {background-color:#000000; padding:6px 6px; color:#ffffff; text-shadow: 3px 3px #575757; opacity:0.7; font-size:250%; width:99%; text-align:center; display:inline-block; border:ridge 1px #000000; border-radius:20px; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
+button {background-color:#000000; padding:6px 6px; color:#ffffff; text-shadow: 3px 3px #575757; opacity:0.7; font-size:175%; width:99%; text-align:center; display:inline-block; border:ridge 1px #000000; border-radius:20px; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
 .hr1 {color:pink; padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
 .hr2 {color:pink; padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif');}
