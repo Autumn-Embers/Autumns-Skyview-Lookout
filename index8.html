@@ -11,10 +11,34 @@
 <br><br>
 <h1><i>My Posts</i></h1>
 <br>
-<ul class="no-bullets">
-<li>Post-1<br><a class="button" href="/autumns-skyview-lookout/index-1">Godzilla Super El Nino Safety Info</a></li>
+<div class="center">
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><hr><hr><hr></button>
+<div id="myDropdown" class="dropdown-content">
+Post-1<br><a class="button" href="/autumns-skyview-lookout/index-1">Godzilla Super El Nino Safety Info</a>
 <br>
-<li>Post-2<a class="button" href="/autumns-skyview-lookout/index-2">Opening Entry</a></li>
-</ul>
+Post-2<br><a class="button" href="autumns-skyview-lookout/index-2">Opening Entry</a>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</div></div></div>
 </body>
 </html>
