@@ -12,6 +12,21 @@ button {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; f
 .link {background-color:#bf00ff; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block;}
 a:hover, a:active {opacity:1.0; cursor:pointer;}
 .button:hover {opacity:1.0; cursor:pointer;}
-.iframe1 {width:99.7%; height:2200px; display:inline-box; margin-left:-8px; margin-bottom:-13px; border:ridge 10px #404040; border-radius:25px;}
+.iframe1 {width:99.8%; height:2000px; margin-left:-8px; margin-bottom:-13px; border:ridge 10px #404040; border-radius:25px;}
 .span1 {opacity:1.0;}
 .no-bullets {list-style-type: none; margin-right:-8px; margin-left:-8px; margin-top:0px; margin-bottom:0px; border:ridge 5px #00674F; border-radius:20px; padding:5px;}
+
+.dropbtn {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px grey;  border-radius:20px; margin-bottom:.3%; margin-top:-1.5%; font-family:Monospace; cursor:pointer;}
+
+.dropbtn:hover, .dropbtn:focus {opacity:1.0; cursor:pointer;}
+
+.dropdown {position:relative;  display:block; width:100%;}
+
+.dropdown-content {display:none; min-width:10%; max-width:75%; position:absolute; z-index:1; background-color:#000000; padding:6px 6px; color:#9B111E; font-size:175%; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
+
+.dropdown-content button {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:175%; width:100%; height:5%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
+
+.dropdown-content button:hover {opacity:1.0; cursor:pointer;}
+
+.show {display:block;}
+
