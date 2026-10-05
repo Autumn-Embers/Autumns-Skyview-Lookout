@@ -10,19 +10,38 @@
 </head>
 <body>
 <header class="header1"><b><i>Autumns Skyview Lookout</i></b></header>
-<hr class="hr2">
-<ul class="no-bullets">
-<li><button class="button" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index4'">Home</button></li>
-<li><button class="button" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index5'">About</button></li>
-<li><button class="button" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index6'"
->Contact</button></li>
-<button class="button" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index8'">My Posts</button>
-<li><button class="button" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index7'">My Photography</button></li>
-<li><button class="button" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index9'">Guestbook</button></li>
-<li><button class="button" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index10'">Links</button></li>
-<li><button class="button" onclick="document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'">My Linux Guide</button></li>
-</ul>
-<hr class="hr1">
-<iframe class="iframe1" id="Pages" src='/index4' title="My Linux Guides"></iframe>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><hr><hr><hr></button></div>
+<div id="myDropdown" class="dropdown-content"><hr class="hr2" style="margin-top:1%;">
+<button onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index4'">Home</button>
+<button onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index5'">About</button>
+<button onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index6'"
+>Contact</button>
+<button onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index8'">My Posts</button>
+<button onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index7'">My Photography</button>
+<button onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index9'">Guestbook</button>
+<button onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index10'">Links</button>
+<button onclick="document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'">My Linux Guide</button>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
+</script>
+<hr class="hr1"></div>
+<iframe class="iframe1" id="Pages" src='/index4'></iframe>
 </body>
 </html>
