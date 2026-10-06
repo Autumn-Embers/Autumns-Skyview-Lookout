@@ -1,4 +1,4 @@
-body {background-color:#000066; background-image:url('stars.gif'); background-size:fill;}
+body {background-color:#000006; background-image:url('stars.gif'); background-size:fill;}
 .header1 {margin-top:-6px; margin-left:-8px; margin-right:-8px; margin-bottom:12px; text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; padding:8px; font-size:300%; border: 2px ridge #87CEEB; border-radius:15px; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; font-family:monospace;}
 .td1 {color:#9B111E; Width:100%; margin-right:-20px; height:2200px; vertical-align:top; border: 2px ridge #87CEEB; border-radius:15px; background-color:#000000; background-size:cover; font-family:Monospace;}
 .td2 {color:#0F52BA;text-align:center; width:100%; height:2200px; vertical-align:top; display:inline-block; border: 2px ridge #87CEEB; border-radius:15px; background-size:cover; background-color:#000000; font-family:Monospace;}
@@ -7,8 +7,7 @@ p {color:#0F52BA;}
 .div1 {margin-left:auto; margin-right:auto; margin-top:10px; padding:4px; border:ridge 2px #888888; border-radius:15px; background-color:#0099FF; width:75%; height:75%; background-image:url('fallingleaves.gif'); background-size:fill;}
 .hr1 {color:pink; padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
 .hr2 {color:pink; padding:4px; border:ridge 0px #ffffff; margin-top:-4px; border-radius:15px; background-image:url('rainbowflip.gif');}
-.button {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
-button {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
+
 .link {background-color:#bf00ff; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block;}
 a:hover, a:active {opacity:1.0; cursor:pointer;}
 .button:hover {opacity:1.0; cursor:pointer;}
@@ -22,11 +21,19 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 .dropdown {position:relative;  display:block; width:100%;}
 
-.dropdown-content {list-style-type: none; display:none; min-width:10%; max-width:100%; position:absolute; z-index:1; background-color:#000000; padding:6px 6px; color:#9B111E; font-size:175%; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; margin-right:2.25%; font-family:Monospace; cursor:pointer;}
+.dropdown-content {list-style-type: none; display:none; min-width:10%; max-width:100%; position:absolute; z-index:1; background-color:#000000; padding:6px 6px; color:#9B111E; font-size:175%; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; margin-right:2.25%; font-family:Monospace;}
 
-.dropdown-content button {list-style-type: none; background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:175%; width:100%; height:5%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
+.dropdown-content .button1 {list-style-type: none; background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:175%; width:100%; height:5%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
 
-.dropdown-content button:hover {opacity:1.0; cursor:pointer;}
+.dropdown-content .button1:hover {opacity:1.0; cursor:pointer;}
 
 .show {display:block;}
+
+.dtb {list-style-type:none; background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:175%; width:100%; height:5%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:1%; margin-top:3%; font-family:Monospace; cursor:pointer;}
+
+.dropdown-content .dtb {list-style-type:none; background-color:#000000; padding:6px 6px; color:#00674F; opacity:1.0; font-size:175%; width:100%; height:5%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
+
+.dtb {list-style-type:none; background-color:#000000; padding:6px 6px; color:#00674F; opacity:1.0; font-size:175%; width:100%; height:5%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
+
+.dropdown-content .dtb:hover {opacity:1.0; cursor:pointer;}
 
