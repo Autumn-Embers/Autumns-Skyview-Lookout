@@ -1,4 +1,4 @@
-body {background-image:url('terminal.png'); background-size:cover; height:2200px; background-repeat:no-repeat; background-position:center top; font-family:Courier New; text-align:center;}
+body {background-image:url('fallingcomets.gif'); background-size:cover; height:2200px; font-family:Courier New; text-align:center;}
 th, td {border:6px ridge #bf00ff; border-radius:12px; text-align:center; margin-left:auto; margin-right:auto; background-color:#232323;}
 h1 {text-shadow:2px 2px hotpink; color:#FFFF33; font-size:400%; font-family:Courier New; text-align:center; border:dashed 5px #ff63c7; border-radius:12px; display:inline-block; padding:3px; outline-style:ridge; outline-width:5px; outline-color:#fff600; outline-offset:3px;}
 .link {background-color:#bf00ff; color:#72FF13; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block; cursor:pointer;}
