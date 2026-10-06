@@ -1,5 +1,5 @@
 //Dropdowns for mp3 player
-function myFunction() {
+function myFunction(dd) {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 window.onclick = function(event) {
