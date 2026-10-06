@@ -26,22 +26,31 @@
 <button class="button1" onclick="document.getElementById('Pages').src='https://autumns-skyview-lookout.neocities.org/index10'">Links</button>
 <button class="button1" onclick="document.getElementById('Pages').src='https://autumns-skyview-lookout.neocities.org/index11'">My Linux Guide</button>
 <hr class="hr2" style="margin-top:-2%;">
- <div class="audio-player">
-        <audio id="audio">
-            <source src="fuhhh.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-        <div class="controls">
-            <button id="play-pause-button">Play</button><br>
-            <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1">
-        </div>
-        <div class="progress">
-            <div class="progress-bar" id="progress-bar"></div>
-        </div>
-        <div id="current-time">0:00</div>
-        <div id="total-time">0:00</div>
-    </div>
-<hr class="hr1">
+<div class="audio-player">
+<audio id="audio">
+<source src="your-audio-file.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio><span class="div2">Music Box</span>
+<div class="div1"><div class="controls">
+<button id="play-pause-button">Play</button></div></div></div>
+<span class="div1" style="color:#ffffff;"><div id="current-time">0:00</div>/<div id="total-time">0:00</div></span>
+<div class="progress"><div class="progress-bar" id="progress-bar"></div>
+<span class="div1"><input type="range" id="volume-control" min="0" max="1" step="0.01" value="1"></span></div><br><br>
+
+
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Select A Song Then Hit Play</button>
+<div id="myDropdown" class="dropdown-content">
+<button class="button2" onclick="document.getElementById('audio').src='/index4'">Home</button>
+<button class="button2" onclick="document.getElementById('audio').src='/index5'">About</button>
+<button class="button2" onclick="document.getElementById('audio').src='/index6'"
+>Contact</button>
+<button class="button2" onclick="document.getElementById('audio').src='/index8'">My Posts</button>
+<button class="button2" onclick="document.getElementById('audio').src='/index7'">My Photography</button>
+<button class="button2" onclick="document.getElementById('audio').src='/index9'">Guestbook</button>
+<button class="button2" onclick="document.getElementById('audio').src='/index10'">Links</button>
+<button class="button2" onclick="document.getElementById('audio').src='https://autumn-embers.github.io/autumns-linux-guides/'">My Linux Guide</button></div></div>
+<br><hr class="hr1" style="margin-top:2.5%;">
 </td>
 <td class="td2"><iframe style="width:67%; height:99%; border:ridge 10px #404040; border-radius:5px 5px 15px 15px;" id="Pages" src='https://autumns-skyview-lookout.neocities.org/index4'></iframe></td>
 </tr>
