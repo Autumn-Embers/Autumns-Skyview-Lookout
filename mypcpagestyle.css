@@ -24,7 +24,7 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 .button1:hover {opacity:1.0; cursor:pointer;}
 
-.dtb {list-style-type:none; background-color:#000000; padding:6px 6px; color:#00674F; opacity:1.0; font-size:175%; width:97.5%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
+.dtb {list-style-type:none; background-color:#000000; padding:6px 6px; color:#00674F; opacity:0.8; font-size:175%; width:97.5%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
 
 .dtb:hover {opacity:1.0; cursor:pointer;}
 
@@ -32,4 +32,29 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 .span2{min-height:2%; z-index:-1; max-height:10%; width:1%; padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif');}
 
-.audioplayer {width:95%; height:15%; display:inline-block; text-align:center; padding:6px 6px; color:#9B111E; background-color:#000000; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
+.audioplayer {width:95%; height:15%; display:inline-block; text-align:center; padding:6px 6px; color:#9B111E; background-color:#000000; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Monospace; cursor:pointer; align-content:center;}
+
+.div0 {display:none;}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.progress {
+    height: 10px;
+    background-color: #ccc;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+}
+
+#current-time, #total-time {
+    margin-top: 10px;
+}
