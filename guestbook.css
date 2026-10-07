@@ -1,4 +1,4 @@
-body {background-image:url('terminal.png'); background-size:fill; background-repeat:no-repeat; background-position:center top;}
+body {background-image:url('fallingcomets.gif'); background-size:fill;}
 .header {text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; font-size:300%; font-family:monospace;}
 .div1 {padding:4px; border:ridge 2px #888888; color:#ffffff; border-radius:15px; width:99%; height:2200px; font-size:125%; font-family:monospace; align-content:center; justify-content:center; display:flex;}
 .hr1 {color:pink; padding:4px; border:ridge 1px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
