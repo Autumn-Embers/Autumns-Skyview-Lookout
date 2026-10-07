@@ -1,6 +1,6 @@
 body {background-color:#000006; background-image:url('stars.gif'); background-size:fill;}
 
-.header1 {margin-top:-8px; margin-left:-8px; margin-right:-8px; margin-bottom:5px; text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; padding:8px; font-size:300%; border: 2px ridge #87CEEB; border-radius:15px; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; font-family:monospace;}
+.header1 {margin-top:-6px; margin-left:-8px; margin-right:-8px; margin-bottom:5px; text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; padding:8px; font-size:300%; border: 2px ridge #87CEEB; border-radius:15px; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; font-family:monospace;}
 
 .td1 {color:#9B111E; Width:300px; height:2200px; vertical-align:top; border: 2px ridge #87CEEB; border-radius:5px 5px 15px 15px; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; font-family:Monospace;}
 
