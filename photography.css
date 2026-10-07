@@ -1,4 +1,4 @@
-body {font-size:200%; text-align:center; font-family:monospace; color:#ffffff; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; text-shadow:2px 2px #1e1e1e; animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animation-fill-mode: forwards;}
+body {font-size:200%; text-align:center; font-family:monospace; color:#ffffff; background-color:#1e1e1e; min-height:2200px; text-shadow:2px 2px #000000; animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animation-fill-mode: forwards;}
 @keyframes fadeInAnimation {
             0% {
                 opacity: 0;
