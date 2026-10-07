@@ -1,4 +1,4 @@
-body {font-size:200%; text-align:center; font-family:monospace; color:#ffffff; background-color:#1e1e1e; min-height:2200px; text-shadow:2px 2px #000000; animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animation-fill-mode: forwards;}
+body {font-size:200%; text-align:center; font-family:monospace; color:#ffffff; background-color:#1e1e1e; min-height:2200px; text-shadow:2px 2px #000000; border:ridge 10px #404040; border-radius:20px; animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animation-fill-mode: forwards;}
 @keyframes fadeInAnimation {
             0% {
                 opacity: 0;
