@@ -20,7 +20,7 @@ p {color:#0F52BA;}
 
 .hr2 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif');}
 
-.button1 {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.6; font-size:175%; width:250px; text-align:center; display:inline-block; border:ridge 1px #0F52BA; border-radius:10px; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
+.button1 {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.6; font-size:175%; width:275px; text-align:center; display:inline-block; border:ridge 1px #0F52BA; border-radius:10px; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
 
 .link {background-color:#bf00ff; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block;}
 
