@@ -66,18 +66,19 @@ audio.addEventListener("timeupdate", () => {
     const progress = (currentTime / duration) * 100;
     progressBar.style.width = `${progress}%`;
 });
-//End audio player function
+//End audio player Function
 
-//
-var iframe = document.getElementById('pages');
+//iframe fades
+//var ifbutton = document.getElementByID('Buttons');
+//document.getElementById('Buttons').onclick = fadeOut;
 
-fadeOut(iframe, 2000);
+var iframe = document.getElementById('Pages');
 
 function fadeOut(el, duration) {
 
 
     var step = 10 / duration,
-        opacity = 1;
+    opacity = 1;
     function next() {
         if (opacity <= 0) { return; }
         el.style.opacity = ( opacity -= step );
@@ -85,4 +86,4 @@ function fadeOut(el, duration) {
     }
     next();
 }
-
+//
