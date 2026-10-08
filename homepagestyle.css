@@ -1,6 +1,6 @@
 body {background-color:#000006; background-image:url('stars.gif'); background-size:fill;}
 
-.header1 {margin-top:-6px; margin-left:-6px; margin-right:-6px; text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; padding:8px; font-size:300%; border: 2px ridge #87CEEB; border-radius:15px; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; font-family:monospace;}
+.header1 {margin-top:-6px; margin-left:-6px; margin-right:-6px; margin-bottom:0px; text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; padding:8px; font-size:300%; border: 2px ridge #87CEEB; border-radius:15px; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; font-family:monospace;}
 
 .td1 {color:#9B111E; Width:300px; height:2200px; vertical-align:top; border: 2px ridge #87CEEB; border-radius:5px 5px 15px 15px; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; font-family:Monospace;}
 
@@ -8,19 +8,31 @@ body {background-color:#000006; background-image:url('stars.gif'); background-si
 
 table {margin-left:-8px; margin-right:-8px; width:100%; align-content:center;}
 
-p {color:#0F52BA;}
-
 .span1 {opacity:1.0;}
+
+.iframe1 {width:98%; height:98.5%; margin-top:.5%; opacity: 0; transition-duration:500ms; transition-property:opacity; transition-timing-function:ease-in-out; border:none;}
 
 .div1 {display:flex; align-content:center; justify-content:center;}
 
 .div2 {display:flex; align-content:center; justify-content:center; border:ridge 3px #dddddd; font-size:150%; color:#dddddd; margin-top:-1.5%; margin-bottom:.8%;}
 
+.div3 {display:flex; align-content:center; justify-content:center; color:#ffffff;}
+
 .hr1 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
 
 .hr2 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif');}
 
-.button1 {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.75; font-size:175%; width:300px; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; font-family:Monospace; cursor:pointer;}
+.hr3 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif'); margin-top:-.15%; margin-bottom:2%;}
+
+.hr4 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif'); margin-top:1.9%; margin-bottom:1.6%;}
+
+.hr5 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif'); margin-top:0%; margin-bottom:1.8%}
+
+.hr6 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif'); margin-top:2.3%;}
+
+.button1 {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.6; font-size:175%; width:300px; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; font-family:Monospace; cursor:pointer;}
+
+.button1-1 {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.6; font-size:175%; width:300px; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; margin-top:-1.2%; font-family:Monospace; cursor:pointer;}
 
 .link {background-color:#bf00ff; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block;}
 
@@ -236,4 +248,3 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 .crt {
   animation: textShadow 1.6s infinite;
 }
-
