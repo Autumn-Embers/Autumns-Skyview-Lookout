@@ -4,28 +4,27 @@
 <title>autumns-skyview-lookout PC</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="homepagestyle.css" rel="stylesheet" type="text/css" media="all">
-<style>
-</style>
+<link href="mypcpagestyle.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
 <header class="header1"><b><i>Autumns Skyview Lookout</i></b></header>
 <table>
 <tr>
 <td class="td1">
-<hr class="hr2" style="margin-top:-.15%; margin-bottom:2%;">
+<hr class="hr3">
 <div class="div1"><button Id="dtb" class="dtb">Date & Time Will Display Here</button></div>
-<hr class="hr1" style="margin-top:1.9%; margin-bottom:1.6%;">
-<button class="button1" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index4'" style="margin-top:-1.2%;">Home</button>
-<button class="button1" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index5'">About</button>
-<button class="button1" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index6'"
+<hr class="hr4">
+<button class="button1-1" id="Buttons1">Home</button>
+<button class="button1" id="Buttons1">About</button>
+<button class="button1" onclick="document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index6'"
 >Contact</button>
-<button class="button1" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index8'">My Posts</button>
-<button class="button1" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index7'">My Photography</button>
-<button class="button1" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index9'">Guestbook</button>
-<button class="button1" onclick="document.getElementById('Pages').src='/autumns-skyview-lookout/index10'">Links</button>
+<button class="button1" onclick="document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index8'">My Posts</button>
+<button class="button1" onclick="document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index7'">My Photography</button>
+<button class="button1" onclick="document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index9'">Guestbook</button>
+<button class="button1" onclick="document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index10'">Links</button>
 <button class="button1" onclick="document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'">My Linux Guide</button>
-<hr class="hr2" style="margin-top:0%; margin-bottom:1.8%">
+<button class="button1" onclick="fadeOut(iframe, 500)" id="Buttons">Unload Sub Site</button>
+<hr class="hr5">
 <div class="audio-player">
 <audio id="audio">
 <source src="" type="audio/mpeg">
@@ -33,7 +32,7 @@ Your browser does not support the audio element.
 </audio><span class="div2">Music Box</span>
 <div class="div1"><div class="controls">
 <button id="play-pause-button">Play</button></div></div></div>
-<span class="div1" style="color:#ffffff;"><div id="current-time">0:00</div>/<div id="total-time">0:00</div></span>
+<span class="div3"><div id="current-time">0:00</div>/<div id="total-time">0:00</div></span>
 <div class="progress"><div class="progress-bar" id="progress-bar"></div>
 <span class="div1"><input type="range" id="volume-control" min="0" max="1" step="0.01" value="1"></span></div><br><br>
 <div class="dropdown">
@@ -58,9 +57,9 @@ Your browser does not support the audio element.
 <button class="button2" onclick="document.getElementById('audio').src='/autumns-skyview-lookout/'">mp3</button>
 <button class="button2" onclick="document.getElementById('audio').src='/autumns-skyview-lookout/'">mp3</button>
 <button class="button2" onclick="document.getElementById('audio').src='/autumns-skyview-lookout/fuhhh.mp3'">DO NOT PLAY THIS ONE.</button></div></div>
-<br><hr class="hr1" style="margin-top:2.3%;">
+<br><hr class="hr6">
 </td>
-<td class="td2"><iframe style="width:98%; height:98.5%; margin-top:.5%;" frameBorder="0" id="Pages" src='/autumns-skyview-lookout/index4'>Iframe/SubSites Incompatible With Your Browser.</iframe></td>
+<td class="td2"><iframe id="Pages" class="iframe1" onload="this.style.opacity = '1';" src='index4.html'>Iframe/SubSites Incompatible With Your Browser.</iframe></td>
 </tr>
 </table>
 <script src="pcscript.js"></script>
