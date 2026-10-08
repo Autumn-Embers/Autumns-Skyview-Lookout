@@ -1,3 +1,31 @@
+//Buttons
+var Buttons1 = document.querySelector('#Buttons1').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index4'};
+var Buttons2 = document.querySelector('#Buttons2').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index5'};
+var Buttons3 = document.querySelector('#Buttons3').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index6'};
+var Buttons4 = document.querySelector('#Buttons4').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index7'};
+var Buttons5 = document.querySelector('#Buttons5').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index8'};
+var Buttons6 = document.querySelector('#Buttons6').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index9'};
+var Buttons7 = document.querySelector('#Buttons7').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index10'};
+var Buttons8 = document.querySelector('#Buttons8').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons1').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons2').onclick = () => {document.getElementById('MP3Audio').src='./theevergrowingnight.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons3').onclick = () => {document.getElementById('MP3Audio').src='./godonlyknows.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons4').onclick = () => {document.getElementById('MP3Audio').src='./killswitch.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons5').onclick = () => {document.getElementById('MP3Audio').src='./yararara.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons6').onclick = () => {document.getElementById('MP3Audio').src='./freefall.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons7').onclick = () => {document.getElementById('MP3Audio').src='./mewmewmagic.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons8').onclick = () => {document.getElementById('MP3Audio').src='./pigstep.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons9').onclick = () => {document.getElementById('MP3Audio').src='./Archie&MaxieTheme.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons10').onclick = () => {document.getElementById('MP3Audio').src='./sevenseas.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons11').onclick = () => {document.getElementById('MP3Audio').src='./sealedvessel.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons12').onclick = () => {document.getElementById('MP3Audio').src='./flowerman.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons13').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons14').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons15').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons16').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons17').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3ButtonsFUH').onclick = () => {document.getElementById('MP3Audio').src='./fuhhh.mp3'};
+//End Buttons
 //Dropdowns for mp3 player
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -27,7 +55,7 @@ function dtb() {
 
 //Start Audioplayer
 //Custom buttons
-const audio = document.getElementById("audio");
+const audio = document.getElementById("MP3Audio");
 const playPauseButton = document.getElementById("play-pause-button");
 const volumeControl = document.getElementById("volume-control");
 const progressBar = document.getElementById("progress-bar");
@@ -86,4 +114,5 @@ function fadeOut(el, duration) {
     }
     next();
 }
+
 //
