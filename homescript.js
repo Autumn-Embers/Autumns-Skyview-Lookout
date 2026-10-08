@@ -8,7 +8,7 @@ var Buttons6 = document.querySelector('#Buttons6').onclick = () => {document.get
 var Buttons7 = document.querySelector('#Buttons7').onclick = () => {document.getElementById('Pages').src='./index10'};
 var Buttons8 = document.querySelector('#Buttons8').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'};
 var MP3Buttons1 = document.querySelector('#MP3Buttons1').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
-var MP3Buttons1 = document.querySelector('#MP3Buttons2').onclick = () => {document.getElementById('MP3Audio').src='./theevergrowingnight.mp3'};
+var MP3Buttons1 = document.querySelector('#MP3Buttons2').onclick = () => {document.getElementById('MP3Audio').src='./evergrowingnight.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3Buttons3').onclick = () => {document.getElementById('MP3Audio').src='./godonlyknows.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3Buttons4').onclick = () => {document.getElementById('MP3Audio').src='./killswitch.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3Buttons5').onclick = () => {document.getElementById('MP3Audio').src='./yararara.mp3'};
