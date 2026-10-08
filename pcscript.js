@@ -66,3 +66,23 @@ audio.addEventListener("timeupdate", () => {
     const progress = (currentTime / duration) * 100;
     progressBar.style.width = `${progress}%`;
 });
+//End audio player function
+
+//
+var iframe = document.getElementById('pages');
+
+fadeOut(iframe, 2000);
+
+function fadeOut(el, duration) {
+
+
+    var step = 10 / duration,
+        opacity = 1;
+    function next() {
+        if (opacity <= 0) { return; }
+        el.style.opacity = ( opacity -= step );
+        setTimeout(next, 10);
+    }
+    next();
+}
+
