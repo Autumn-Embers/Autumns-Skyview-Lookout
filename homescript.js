@@ -1,11 +1,11 @@
 //Buttons
-var Buttons1 = document.querySelector('#Buttons1').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index4'};
-var Buttons2 = document.querySelector('#Buttons2').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index5'};
-var Buttons3 = document.querySelector('#Buttons3').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index6'};
-var Buttons4 = document.querySelector('#Buttons4').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index7'};
-var Buttons5 = document.querySelector('#Buttons5').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index8'};
-var Buttons6 = document.querySelector('#Buttons6').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index9'};
-var Buttons7 = document.querySelector('#Buttons7').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-skyview-lookout/index10'};
+var Buttons1 = document.querySelector('#Buttons1').onclick = () => {document.getElementById('Pages').src='./index4'};
+var Buttons2 = document.querySelector('#Buttons2').onclick = () => {document.getElementById('Pages').src='./index5'};
+var Buttons3 = document.querySelector('#Buttons3').onclick = () => {document.getElementById('Pages').src='./index6'};
+var Buttons4 = document.querySelector('#Buttons4').onclick = () => {document.getElementById('Pages').src='./index7'};
+var Buttons5 = document.querySelector('#Buttons5').onclick = () => {document.getElementById('Pages').src='./index8'};
+var Buttons6 = document.querySelector('#Buttons6').onclick = () => {document.getElementById('Pages').src='./index9'};
+var Buttons7 = document.querySelector('#Buttons7').onclick = () => {document.getElementById('Pages').src='./index10'};
 var Buttons8 = document.querySelector('#Buttons8').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'};
 var MP3Buttons1 = document.querySelector('#MP3Buttons1').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3Buttons2').onclick = () => {document.getElementById('MP3Audio').src='./theevergrowingnight.mp3'};
