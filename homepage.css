@@ -1,4 +1,14 @@
-body {background-color:#000006; background-image:url('stars.gif'); background-size:fill;}
+body {background-color:#000006; background-image:url('stars.gif'); background-size:fill; animation: fadeInAnimation ease 2.5s; animation-iteration-count: 1; animation-fill-mode: forwards;}
+@keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
 
 .header1 {margin-top:-6px; margin-left:-6px; margin-right:-6px; margin-bottom:0px; text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; padding:8px; font-size:300%; border: 2px ridge #87CEEB; border-radius:15px; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; font-family:monospace;}
 
