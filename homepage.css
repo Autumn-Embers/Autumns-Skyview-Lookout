@@ -40,6 +40,8 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 .button1:hover {opacity:1.0; cursor:pointer;}
 
+.button1-1:hover {opacity:1.0; cursor:pointer;}
+
 .dtb {list-style-type:none; background-color:#000000; padding:6px 6px; color:#00674F; opacity:0.8; font-size:175%; width:96.5%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
 
 .dtb:hover {opacity:1.0; cursor:pointer;}
