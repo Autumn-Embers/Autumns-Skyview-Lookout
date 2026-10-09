@@ -40,6 +40,8 @@ table {margin-left:-8px; margin-right:-8px; width:100%; align-content:center;}
 
 .hr6 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif'); margin-top:2.3%;}
 
+.hr7 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif'); margin-top:0%;}
+
 .button1 {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.6; font-size:175%; width:300px; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; font-family:Monospace; cursor:pointer;}
 
 .buttoncrt {background-color:#000000; padding:6px 6px; color:#ffff33; opacity:0.6; font-size:175%; width:300px; text-align:center; display:inline-block; border:ridge 1px #ff66ff; margin-left:-.5px; margin-bottom:1px; margin-top:-1.75%; font-family:Monospace; cursor:pointer;}
