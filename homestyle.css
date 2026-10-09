@@ -1,4 +1,4 @@
-body {animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animation-fill-mode: forwards;}
+body {background-color:#000000; animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animation-fill-mode: forwards;}
 @keyframes fadeInAnimation {
             0% {
                 opacity: 0;
@@ -8,8 +8,7 @@ body {animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animatio
                 opacity: 1;
             }
         }
-.div1 {min-height:2200px; background-color:#1e1e1e; background-size:cover; border:ridge 10px #404040; border-radius:20px;}
 .header {text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; font-size:300%; font-family:monospace;}
-.p1 {padding:4px; margin-left:0%; border:ridge 2px #888888; color:#ffffff; text-shadow:2px 2px #000000; border-radius:15px; background-color:#1E1E1E; min-width:99%; max-width:100%; text-align:left; font-size:100%; font-family:monospace;}
+.div1 {padding:4px; border:ridge 2px #888888; color:#ffffff; border-radius:15px; background-color:#1E1E1E; width:99%; height:90%; background-size:cover; font-size:125%; font-family:monospace;}
 .hr1 {color:pink; padding:4px; border:ridge 1px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
 .hr2 {color:pink; padding:4px; border:ridge 1px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif');}
