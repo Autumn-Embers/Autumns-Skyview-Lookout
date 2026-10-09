@@ -25,6 +25,9 @@ var MP3Buttons1 = document.querySelector('#MP3Buttons15').onclick = () => {docum
 var MP3Buttons1 = document.querySelector('#MP3Buttons16').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3Buttons17').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3ButtonsFUH').onclick = () => {document.getElementById('MP3Audio').src='./fuhhh.mp3'};
+var Buttonscrton = document.querySelector('#Buttonscrton').onclick = () => {Togglecrt()};
+//End Buttons
+//Buttons Functions
 function HomeButton() {document.getElementById('Pages').src='./index4'}
 function AboutButton() {document.getElementById('Pages').src='./index5'}
 function ContactButton() {document.getElementById('Pages').src='./index6'}
@@ -33,8 +36,10 @@ function PhotogButton() {document.getElementById('Pages').src='./index7'}
 function GuestbookButton() {document.getElementById('Pages').src='./index9'}
 function LinksButton() {document.getElementById('Pages').src='./index10'}
 function LinuxguideButton() {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'}
-
-//End Buttons
+function TurnOncrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("blank"); element.classList.add("crt");}
+function TurnOffcrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("crt"); element.classList.add("blank");}
+function Togglecrt() {if(TheEntireHeckinWebsite.className == "blank") {TurnOncrt()} else{TurnOffcrt()}};
+//End Buttons Functions
 //Dropdowns for mp3 player
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
