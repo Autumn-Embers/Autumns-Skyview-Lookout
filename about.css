@@ -1,4 +1,4 @@
-body {min-height:2200px; border:ridge 10px #404040; border-radius:20px; animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animation-fill-mode: forwards;}
+body {min-height:2200px; animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animation-fill-mode: forwards;}
 @keyframes fadeInAnimation {
             0% {
                 opacity: 0;
