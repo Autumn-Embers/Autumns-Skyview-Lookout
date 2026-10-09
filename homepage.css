@@ -1,4 +1,4 @@
-body {background-color:#000006; background-image:url('stars.gif'); background-size:fill; animation: fadeInAnimation ease 1s; animation-iteration-count: 1; animation-fill-mode: forwards;}
+body {background-color:#000006; background-image:url('stars.gif'); background-size:fill; animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animation-fill-mode: forwards;}
 @keyframes fadeInAnimation {
             0% {
                 opacity: 0;
