@@ -1,12 +1,12 @@
 //Buttons
-var Buttons1 = document.querySelector('#Buttons1').onclick = () => {document.getElementById('Pages').src='./index4'};
-var Buttons2 = document.querySelector('#Buttons2').onclick = () => {document.getElementById('Pages').src='./index5'};
-var Buttons3 = document.querySelector('#Buttons3').onclick = () => {document.getElementById('Pages').src='./index6'};
-var Buttons4 = document.querySelector('#Buttons4').onclick = () => {document.getElementById('Pages').src='./index8'};
-var Buttons5 = document.querySelector('#Buttons5').onclick = () => {document.getElementById('Pages').src='./index7'};
-var Buttons6 = document.querySelector('#Buttons6').onclick = () => {document.getElementById('Pages').src='./index9'};
-var Buttons7 = document.querySelector('#Buttons7').onclick = () => {document.getElementById('Pages').src='./index10'};
-var Buttons8 = document.querySelector('#Buttons8').onclick = () => {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'};
+var Buttons1 = document.querySelector('#Buttons1').onclick = () => {fadeOut(iframe, 250); {setTimeout(HomeButton, 1000)}};
+var Buttons2 = document.querySelector('#Buttons2').onclick = () => {fadeOut(iframe, 250); {setTimeout(AboutButton, 1000)}};
+var Buttons3 = document.querySelector('#Buttons3').onclick = () => {fadeOut(iframe, 250); {setTimeout(ContactButton, 1000)}};
+var Buttons4 = document.querySelector('#Buttons4').onclick = () => {fadeOut(iframe, 250); {setTimeout(PostsButton, 1000)}};
+var Buttons5 = document.querySelector('#Buttons5').onclick = () => {fadeOut(iframe, 250); {setTimeout(PhotogButton, 1000)}};
+var Buttons6 = document.querySelector('#Buttons6').onclick = () => {fadeOut(iframe, 250); {setTimeout(GuestbookButton, 1000)}};
+var Buttons7 = document.querySelector('#Buttons7').onclick = () => {fadeOut(iframe, 250); {setTimeout(LinksButton, 1000)}};
+var Buttons8 = document.querySelector('#Buttons8').onclick = () => {fadeOut(iframe, 250); {setTimeout(LinuxguideButton, 1000)}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons1').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3Buttons2').onclick = () => {document.getElementById('MP3Audio').src='./evergrowingnight.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3Buttons3').onclick = () => {document.getElementById('MP3Audio').src='./godonlyknows.mp3'};
@@ -25,6 +25,15 @@ var MP3Buttons1 = document.querySelector('#MP3Buttons15').onclick = () => {docum
 var MP3Buttons1 = document.querySelector('#MP3Buttons16').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3Buttons17').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3ButtonsFUH').onclick = () => {document.getElementById('MP3Audio').src='./fuhhh.mp3'};
+function HomeButton() {document.getElementById('Pages').src='./index4'}
+function AboutButton() {document.getElementById('Pages').src='./index5'}
+function ContactButton() {document.getElementById('Pages').src='./index6'}
+function PostsButton() {document.getElementById('Pages').src='./index8'}
+function PhotogButton() {document.getElementById('Pages').src='./index7'}
+function GuestbookButton() {document.getElementById('Pages').src='./index9'}
+function LinksButton() {document.getElementById('Pages').src='./index10'}
+function LinuxguideButton() {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'}
+
 //End Buttons
 //Dropdowns for mp3 player
 function myFunction() {
