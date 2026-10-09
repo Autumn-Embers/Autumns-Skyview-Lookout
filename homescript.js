@@ -38,7 +38,7 @@ function LinksButton() {document.getElementById('Pages').src='./index10'}
 function LinuxguideButton() {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'}
 function TurnOncrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("blank"); element.classList.add("crt");}
 function TurnOffcrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("crt"); element.classList.add("blank");}
-function Togglecrt() {if(TheEntireHeckinWebsite.className == "blank") {TurnOncrt()} else{TurnOffcrt()}};
+function Togglecrt() {if(TheEntireHeckinWebsite.className == "blank") {TurnOncrt()} else{TurnOffcrt()}}
 //End Buttons Functions
 //Dropdowns for mp3 player
 function myFunction() {
