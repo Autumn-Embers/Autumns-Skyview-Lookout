@@ -46,6 +46,22 @@ PagesIframe.addEventListener("load", () => {
     document.getElementById('Pages').style.opacity = '1';
 });
 //End iframe fade in
+//iframe fade outs
+var iframe = document.getElementById('Pages');
+
+function fadeOut(el, duration) {
+
+
+    var step = 10 / duration,
+    opacity = 1;
+    function next() {
+        if (opacity <= 0) { return; }
+        el.style.opacity = ( opacity -= step );
+        setTimeout(next, 10);
+    }
+    next();
+}
+//End iframe fade outs
 //Dropdowns for mp3 player
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -73,6 +89,7 @@ function dtb() {
     setInterval(dtb, 1000);
 //End Clock function
 
+
 //Start Audioplayer
 //Custom buttons
 const audio = document.getElementById("MP3Audio");
@@ -81,6 +98,7 @@ const volumeControl = document.getElementById("volume-control");
 const progressBar = document.getElementById("progress-bar");
 const currentTimeDisplay = document.getElementById("current-time");
 const totalTimeDisplay = document.getElementById("total-time");
+const loopButton = document.getElementById("loop-MP3-button");
 
 let isPlaying = false;
 
@@ -114,25 +132,14 @@ audio.addEventListener("timeupdate", () => {
     const progress = (currentTime / duration) * 100;
     progressBar.style.width = `${progress}%`;
 });
-//End audio player Function
+audio.loop = false;
 
-//iframe fades
-//var ifbutton = document.getElementByID('Buttons');
-//document.getElementById('Buttons').onclick = fadeOut;
-
-var iframe = document.getElementById('Pages');
-
-function fadeOut(el, duration) {
-
-
-    var step = 10 / duration,
-    opacity = 1;
-    function next() {
-        if (opacity <= 0) { return; }
-        el.style.opacity = ( opacity -= step );
-        setTimeout(next, 10);
+loopButton.addEventListener("click", () => {
+    audio.loop = !audio.loop;
+    if (audio.loop) {
+        loopButton.textContent = "Looping";
+    } else {
+        loopButton.textContent = "Loop";
     }
-    next();
-}
-
-//
+});
+//End audio player Function
