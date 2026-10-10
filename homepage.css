@@ -22,11 +22,15 @@ table {margin-left:-8px; margin-right:-8px; width:100%; align-content:center;}
 
 .iframe1 {width:98%; height:98%; margin-top:.5%; border:ridge 10px #404040; border-radius:20px; opacity: 0; transition-duration:500ms; transition-property:opacity; transition-timing-function:ease-in-out;}
 
+.div0 {display:none;}
+
 .div1 {display:flex; align-content:center; justify-content:center;}
 
 .div2 {display:flex; align-content:center; justify-content:center; border:ridge 3px #dddddd; font-size:150%; color:#dddddd; margin-top:-1.5%; margin-bottom:.8%;}
 
 .div3 {display:flex; align-content:center; justify-content:center; color:#ffffff;}
+
+.div4 {display:flex; align-content:center; justify-content:center; color:#ffffff; margin-top:-.2%; margin-bottom:-1.75%;}
 
 .hr1 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
 
@@ -66,8 +70,6 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 .audioplayer {width:95%; text-align:center; padding:6px 6px; color:#9B111E; background-color:#000000; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Monospace; cursor:pointer; align-content:center;}
 
-.div0 {display:none;}
-
 .controls {
     display:flex;
     align-items: center;
@@ -87,12 +89,19 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 #current-time, #total-time {color:#ffffff;
 }
+.loop-button {background-color:#000000; color:#dddddd; opacity:0.6; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.5%; margin-left:.5px; font-family:Monospace; cursor:pointer;}
+
+.p-p-button {background-color:#000000; color:#dddddd; opacity:0.6; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.5%; margin-right:.5px; font-family:Monospace; cursor:pointer;}
 
 .button2 {background-color:#000000; color:#dddddd; opacity:0.6; font-size:125%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; font-family:Monospace; cursor:pointer;}
 
 .button2:hover {opacity:1.0; cursor:pointer;}
 
-.dropbtn {background-color:#000000; color:#dddddd; opacity:0.8; font-size:125%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd;  margin-bottom:.3%; margin-top:0%; font-family:Monospace; cursor:pointer;}
+.loop-button:hover {opacity:1.0; cursor:pointer;}
+
+.p-p-button:hover {opacity:1.0; cursor:pointer;}
+
+.dropbtn {background-color:#000000; color:#dddddd; opacity:0.8; font-size:125%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-top:2.4%; margin-bottom:.2%; font-family:Monospace; cursor:pointer;}
 
 .dropbtn:hover, .dropbtn:focus {opacity:1.0; cursor:pointer;}
 
