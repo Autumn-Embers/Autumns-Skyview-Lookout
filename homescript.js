@@ -77,7 +77,7 @@ window.onclick = function(event) {
             }
         }
     }
-}
+};
 
 //Start Clock function 
 var dtbElement = document.getElementById('dtb');
