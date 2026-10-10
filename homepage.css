@@ -20,7 +20,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%; align-content:center;}
 
 .span1 {opacity:1.0;}
 
-.iframe1 {width:98%; height:98%; margin-top:.5%; border:ridge 10px #404040; border-radius:20px; opacity: 0; transition-duration:500ms; transition-property:opacity; transition-timing-function:ease-in-out;}
+.iframe1 {width:75%; height:98%; margin-top:.5%; border:ridge 10px #404040; border-radius:20px; opacity: 0; transition-duration:500ms; transition-property:opacity; transition-timing-function:ease-in-out;}
 
 .div0 {display:none;}
 
