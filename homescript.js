@@ -40,7 +40,7 @@ function TurnOncrt() {const element = document.getElementById("TheEntireHeckinWe
 function TurnOffcrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("crt"); element.classList.add("blank");}
 function Togglecrt() {if(TheEntireHeckinWebsite.className == "blank") {TurnOncrt()} else{TurnOffcrt()}}
 //End Buttons Functions
-function IframesFadein() {onload="iframe1.style.opacity = '1';"}
+function IframesFadein() {document.getElementById('Pages').onload = style.opacity = '1';}
 //Dropdowns for mp3 player
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
